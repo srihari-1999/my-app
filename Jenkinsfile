@@ -1,13 +1,13 @@
 node {
     stage('Build') {
-        echo 'Building the application...' // Add build commands here
+        echo 'Building the application...' 
     }
     
     stage('Test') {
-        echo 'Running tests...' // Add test commands here
+        echo 'Running tests...'
     }
     
     stage('Deploy') {
-        echo 'Deploying application...' // Add deployment commands here
+        echo 'Deploying application...' 
     }
 }
